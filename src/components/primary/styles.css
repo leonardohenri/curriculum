@@ -2,9 +2,11 @@
     display: flex;
     margin-top: 10px;
 }
-img{
+.img{
     margin-top: 100px;
-    margin-left: 1000px;
     width: 281px;
     height: 281px;
+}
+.Content-gridOne{
+    margin-right: 1000px;
 }

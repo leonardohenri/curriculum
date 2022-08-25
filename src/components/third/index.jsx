@@ -1,3 +1,4 @@
+import './styles.css'
 export const GridThree = () => {
     return(
         <div id="GridThree">
