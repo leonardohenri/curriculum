@@ -1,0 +1,23 @@
+.Menu{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    height: 30px;
+    padding: 10px 10px 10px 10px;
+    
+}
+a{
+    margin-top: 5px;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px ;
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(0.98);
+            text-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            
+}
