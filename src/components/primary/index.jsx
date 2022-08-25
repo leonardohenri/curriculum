@@ -4,6 +4,7 @@ export const GridOne = () => {
     return (
         <div className="GridOne">
             <div className="Content-gridOne" id='GridOne'>
+            <br/>
             <h1>Portfolio </h1>
             <p> Nome: Leonardo Henrique da Silva</p>
             <p>Nascimento: 15/02/2000</p>

@@ -1,13 +1,4 @@
-.Menu{
-    width: 100%;
-    justify-content: space-around;
-    display: flex;
-    position: fixed;
-    background: rgb(255, 255, 255);
-    height: 30px;
-    padding: 10px 10px 10px 10px;
-    
-}
+
 a{
     margin-top: 5px;
     display: block;
@@ -16,8 +7,21 @@ a{
     font-size:25px ;
     text-decoration: none;
 }
+.Menu{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    position: fixed;
+    background: rgba(0, 18, 25, 0.2);
+    padding: 10px 10px 10px 10px;
+    
+}
 a:hover{
-    transform: scale(0.98);
-            text-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-            
+    color:rgb(74, 73, 75);
+}
+@media(max-width: 320px){
+    .Menu{
+        display: none;
+    }
+   
 }

@@ -1,6 +1,7 @@
 export const GridTwo = () => {
     return(
         <div id="GridTwo">
+            <br/>
         <h2>Formação</h2>
         <ul>
         <li>capitão porfirio de alcantara pimentel - Ensino médio - Monte Aprazível - 2015 há 2017.</li>
