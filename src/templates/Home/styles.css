@@ -34,3 +34,17 @@ a:hover{
 html{
     scroll-behavior: smooth;
 }
+
+@media(max-width: 321px) and (max-width:768px){
+    .styles-grid{
+        max-width: 320px;
+    }
+    
+}
+
+@media(max-width:320px){
+    .styles-grid{
+        max-width: 320px;
+    }
+    
+}

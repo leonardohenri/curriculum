@@ -10,3 +10,26 @@
 .Content-gridOne{
     margin-right: 700px;
 }
+.page{
+    width: 100%;
+}
+@media (min-width: 321px) and (max-width: 768px){
+  .Content-gridOne{
+    margin-right: 40px;
+  }
+  .img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media(max-width:320px){
+    .Content-gridOne{
+        margin-right: 40px;
+      }
+      .img{
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+      }
+}
